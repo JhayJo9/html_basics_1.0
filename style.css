@@ -33,6 +33,7 @@
     margin-bottom: 4px;
 }
 .video-grid {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px; /* gap for each video preview same goes to row */
@@ -43,5 +44,4 @@
     color: black;
     text-decoration: none;
 }
-
 
