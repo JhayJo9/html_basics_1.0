@@ -12,6 +12,7 @@
     border-bottom-width: 1px;
     border-bottom-style:  solid;
     border-bottom-color: rgb(218, 212, 212);
+    z-index: 100;
 }
 .ser-bar{
     flex: 1;
@@ -105,7 +106,7 @@
 .notifications-icon:hover, .current-user-picture:hover, .upload-icon:hover, .youtube-apps-icon:hover{
     filter: drop-shadow(rgba(188, 46, 46, 0.05));
     opacity: 0.5;
-    border-radius: 12px;
+    border-radius: 16px;
 }
 .current-user-picture {
     height: 32px;
