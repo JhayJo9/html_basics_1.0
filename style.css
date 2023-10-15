@@ -1,66 +1,47 @@
-p{
-    font-family: Roboto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-img {
-    cursor: pointer;
-    
-}
-.vid-prev{
-    width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-    
-}
 
-.ser-bar{
-    display: block;
-}
-.img-ere, .img-cr{
-    display: inline-block;
-    width: 300px;
-}
-.thumbnail-row {
-    margin-bottom: 13px;
-}
-.vid-dp{
-display: inline-block;
-   width: 50px;
-   vertical-align: top;
-   margin-right: 15px;
-}
-.channel-dp{
- 
-    border-radius: 40px;
+.thumbnail{
+    cursor: pointer;
     width: 100%;
 }
+
 .vid-title{
     margin-top: 0px;
     font-size: 14px;
     font-family: Roboto;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 20px;
     margin-bottom: 12px;
     cursor: pointer;
+
 }
+.vid-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+.thumbnail-row {
+    margin-bottom: 12px;
+}
+.video-author, .video-stats{
+    font-size: 12px;
+    color: #606060;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px; /* gap for each video preview same goes to row */
+    row-gap: 40px;             
+  }
+
 .link-color{
     color: black;
     text-decoration: none;
 }
-.author-1, .stats-1{
-    font-size: 12px;
-    color: #606060;
-    
-}
-.author-1{
-    margin-bottom: 4px;
-}
-.vid-info{
-    display: inline-block;
-    width: 200px;
-    
-  
-}
+
+
