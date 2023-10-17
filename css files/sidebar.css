@@ -4,14 +4,16 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
+    width: 100%;
+    max-width: 72px;
     z-index: 200;
     padding-top: 5px;
 }
 
 .sidebar-link{
     margin-bottom: 40px;
-    height: 74px;
+    height: 100%;
+    max-height: 74px;
     display: flex;
     justify-content: center;  
     align-items: center;
@@ -21,7 +23,8 @@
     background-color: rgb(235, 235, 235);
 }
 .side-bar img {
-    height: 36px;
+    height: 100%;
+    max-height: 36px;
     margin-bottom: 4px;
     cursor: pointer;
 }
@@ -29,4 +32,31 @@
 .side-bar div {
     font-size: 10px;
     font-family: Roboto;
+}
+
+@media screen and (max-width: 800px) {
+    .side-bar{
+        width: 100%;
+        max-width: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .sidebar-link{
+       
+        height: 100%;
+        max-height: 74px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        flex-direction: column;
+    }
+    .side-bar img {
+        height: 100%;
+        max-height: 30px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
 }
